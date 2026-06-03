@@ -1,0 +1,21 @@
+# Ambienti virtuali
+.venv/
+Myvenv/
+
+# Log
+tb_logs/
+
+# Modelli e archivi
+*.zip
+!models/sac_push_adr_source_best.zip
+
+# Impostazioni IDE e Cache
+.vscode/
+__pycache__/
+*.pyc
+
+#evaluation
+evaluation.npz
+
+#old README
+README
