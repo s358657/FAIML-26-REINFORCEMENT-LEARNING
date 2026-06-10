@@ -68,13 +68,13 @@ def main() -> None:
         if args.sampling_strategy == "udr":
             train_config = {
                 'mass':(1.0, 8.0),
-                'friction':(0.5, 1.5)
+                'friction':(1.0,1.0)
             }
             actual_strategy = "udr"
         elif args.sampling_strategy == "adr":
             train_config = {
-                'mass':(0.1, 10.0),
-                'friction':(0.1, 2.0)
+                'mass':(0.5, 8.0),
+                'friction':(0.5, 1.5)
             }
             actual_strategy = "adr"
         else:
